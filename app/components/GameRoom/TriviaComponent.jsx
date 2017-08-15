@@ -65,10 +65,10 @@ class TriviaComponent extends Component {
     this.setUserAnswer(event.currentTarget.value);
     if (event.currentTarget.value === this.state.correct){
 			alert('Correct!!')
-       console.log('FUCK YEAH DICKHEAD')
+       console.log('YEAH')
     } else {
 			alert('Incorrect')
-      console.log('HAHA YOU FUCKING RETARD')
+      console.log('HAHA')
       this.setState({count: this.state.count - 1});
       console.log(this.state.count);
       if (this.state.count <= 1){

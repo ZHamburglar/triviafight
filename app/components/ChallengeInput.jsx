@@ -3,12 +3,12 @@ import React, {PropTypes} from 'react'
 function ChallengeInput() {
   function handleSubmit(e) {
     e.preventDefault();
-    alert("stop pressing me dick");
+    alert("stop pressing me");
   }
 
   function handleClick (e) {
     e.preventDefault();
-    alert("stop pressing me dick");
+    alert("stop pressing me");
   }
 
   return (
